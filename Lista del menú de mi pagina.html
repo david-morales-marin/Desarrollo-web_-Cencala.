@@ -35,9 +35,17 @@
 		       background: url(../img/fondo2.jpg);
 		      }	
 			
+		img {
+              width: 250px;
+			 height: 250px;
+			border-radius: 15px;
+			position: relative;
+			left: 10px;
+			box-sizing:border-box;
+	         	
+		}	
 			
-			
-		input { 		
+		input  { 		
 		    color: red; 
 		    font-size: 32px; 
 			font-family: arial;
@@ -47,7 +55,7 @@
 			word-spacing: 15px;
 			border-radius: 15px; 
             text-shadow: black 0.1em 0.1em 0.1em;
-			padding: 15px; 
+			padding: 10px; 
 			background: black;
 			margin: 5px; 
 			border: 10px solid blue;
@@ -55,8 +63,26 @@
 		    sana-serif;
 			}
 			
+	    header {
+		
+		background: black;
+		width: 50%
+		clear: both;
+		content: "";
+		display: table;
+		}
 			
+	nav {
+          float: right;	
+	}
 	
+	nav ul li {
+	   list-style: none;
+	   margin-left: 75px;
+	   padding: 25px 0;
+	   float: left;
+	
+	}
 	 </style>
 
 
@@ -65,27 +91,33 @@
   
   <body> 
   
-
+    <header>
+	 
+        <div id="demo" class="carousel slide" data-ride="carousel">
+		 
+		    <img src="../img/logo.jpg" alt="logo">
+            <nav>		
+                 <ul>
+  
+                     <li class="incio"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/inicio.html"> <input value="Inicio"></a></li>
+                     <li class="hogar"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/hogar.html"> <input value="Hogar"></a></li>
+                     <li class="video juegos"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/video%20juegos.html"> <input value="Video Juegos"></a></li>
+                     <li class="calzado"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/calzado.html"> <input value="Calzado"></a></li>
+                     <li class="farmacia"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/farmacia.html"> <input value="Farmacia"></a></li>
+                     <li class="jugueteria"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/jugueteria.html"> <input value="Juguetería"></a></li>
+	                 <li class="lenceria"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/lenceria.html"> <input value="Lencería"></a></li>
+	                 <li class="mas (contactanos)"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/m%C3%A1s%20(contactanos).html"> <input value="Más (contactanos)"></a></li>
+	
+                  </ul>
+             </nav>
+        </div>	
+		
+	</header>
   
     <background-image src="../img/ps4" alt="fondo2"/>
 	
   
-   <form>
    
-   <ul>
-  
-    <li class="incio"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/inicio.html"> <input value="Inicio"></a></li>
-    <li class="hogar"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/hogar.html"> <input value="Hogar"></a></li>
-    <li class="video juegos"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/video%20juegos.html"> <input value="Video Juegos"></a></li>
-    <li class="calzado"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/calzado.html"> <input value="Calzado"></a></li>
-    <li class="farmacia"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/farmacia.html"> <input value="Farmacia"></a></li>
-    <li class="jugueteria"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/jugueteria.html"> <input value="Juguetería"></a></li>
-	<li class="lenceria"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/lenceria.html"> <input value="Lencería"></a></li>
-	<li class="mas (contactanos)"><a href="file:///C:/Users/edgar%20david/Documents/desarrollo%20web%20-%20alcald%C3%ADa/m%C3%A1s%20(contactanos).html"> <input value="Más (contactanos)"></a></li>
-	
-  </ul>
-   
-   </form>
     
   </body>
 
